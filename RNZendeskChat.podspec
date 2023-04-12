@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['homepage']
   s.platform     = :ios, '12'
-  s.source       = { git: 'https://github.com/taskrabbit/react-native-zendesk-chat.git', tag: "v#{s.version}" }
+  s.source       = { git: 'https://github.com/aceslick911/react-native-zendesk-chat.git', tag: "v#{s.version}" }
   s.source_files = 'ios/*.{h,m}'
   s.static_framework = true
 
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.framework    = 'UIKit'
 
   s.dependency 'React-Core'
-  s.dependency 'ZendeskChatSDK', '~> 2.12.0'
+  s.dependency 'ZendeskChatSDK', '~> 4.0.0'
 end
